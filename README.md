@@ -1,7 +1,7 @@
 [![Discord](https://img.shields.io/discord/915046808009441323.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/AzJ7Uz7wkx)
 
 
-# Shuffle
+# ShuffleWord
 Simple plugin to earn rewards for the first player who finds the random word.
 
 ## How to use
