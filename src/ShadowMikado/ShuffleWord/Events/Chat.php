@@ -21,7 +21,6 @@ class Chat implements Listener
                 Server::getInstance()->broadcastMessage($broadcast);
                 foreach (Main::$config->get("rewards") as $command) {
                     $command = str_replace("{player}", $player->getName(), $command);
-                    var_dump($command);
                     Server::getInstance()->getCommandMap()->dispatch(new ConsoleCommandSender(Main::getInstance()->getServer(), Server::getInstance()->getLanguage()), $command);
                 }
                 Main::$word = "";
